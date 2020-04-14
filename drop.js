@@ -5,7 +5,8 @@ $(document).ready(function () {
     mainContainer: "#container",
     leftContainer: "#left",
     rightContainer: "#right",
+    connectorClass: ".dragndrop",
   }
-  let shop = new MoveCountry(options);
-  shop.init();
+  let move = new MoveCountry(options);
+  move.init();
 });
