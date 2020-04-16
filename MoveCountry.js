@@ -20,7 +20,7 @@ export default class MoveCountry
 
   moveCountry(event, ui)
   {
-    $(event.target).append(ui.draggable.attr("style","postion: relataive").draggable({revert: "invalid"}))
+    $(event.target).append(ui.draggable.attr("style","position: relative").draggable({revert: "invalid"}))
   }
   
 }
