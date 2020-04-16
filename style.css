@@ -1,6 +1,9 @@
 #container {
   display: flex;
 }
+.dragndrop {
+  width: 200px;
+}
 
 #container * {
   margin: 10px;

@@ -5,7 +5,6 @@ $(document).ready(function () {
     mainContainer: "#container",
     leftContainer: "#left",
     rightContainer: "#right",
-    connectorClass: ".dragndrop",
   }
   let move = new MoveCountry(options);
   move.init();
